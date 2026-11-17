@@ -1,0 +1,31 @@
+# Verilator build products
+/obj_dir/
+/sim/obj_*/
+
+# Simulation waveforms and generated simulator outputs
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+*.ghw
+*.vpd
+*.vvp
+/sim/simd_datapath_netlist.v
+
+# Compiler and synthesis artifacts
+*.o
+*.a
+*.d
+*.log
+*.tmp
+*.bak
+core
+core.*
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
